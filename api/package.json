@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js",
+	"publishheroku": "cd ../../ && git subtree push --prefix picsizechallenge/api picsize-chl-api master || true",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
