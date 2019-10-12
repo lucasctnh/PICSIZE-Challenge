@@ -1,0 +1,50 @@
+p {
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
+form {
+	margin-bottom: 30px;
+}
+
+.list-users {
+	background: #ddd;
+	border-radius: 2px;
+	padding: 10px 10px;
+	list-style-type: none;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+.list-users p {
+	margin-top: 10px;
+}
+
+.list-users a{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-items: center;
+}
+
+.list-users a:link {
+	color: #226cb1;
+	text-decoration: none;
+}
+
+.list-users a:visited {
+	color: #070964;
+	text-decoration: none;
+}
+
+.list-users li {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.list-users img {
+	max-width: 100%;
+	height: 50px;
+	object-fit: contain;
+}
