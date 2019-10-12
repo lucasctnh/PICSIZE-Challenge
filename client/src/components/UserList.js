@@ -21,7 +21,6 @@ export default class UserList extends Component {
 
 	async componentWillReceiveProps({refresh, show}) {
 		this.setState({ ...this.state, refresh})
-		console.log(this.state.refresh)
 
 		if(this.props.show === false && this.props.refresh !== undefined && this.props.refresh.length > 0) {
 			const response = await api.get(`/user?user=${this.props.refresh}`)
